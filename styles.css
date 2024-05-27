@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    background-color: #8c6db3; /* Light purple background */
+    color: #ffd700; /* Gold text color */
+}
+
+.card {
+    background-color: #ffd700; /* Gold card background */
+    color: #6b3f91; /* Dark purple card text color */
+    border-color: #6b3f91; /* Dark purple border color */
+}
+
+.card-title {
+    color: #6b3f91; /* Dark purple card title color */
+}
+
+.btn-dark {
+    background-color: #6b3f91; /* Dark purple button background */
+    border-color: #ffd700; /* Gold button border */
+    color: #ffd700; /* Gold button text color */
+}
+
+.btn-dark:hover {
+    background-color: #543e86; /* Darker purple on hover */
+}
+
+/* Styling for the table */
+.table-container {
+    border: 2px solid #6b3f91; /* Dark purple border around the table */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background for the table */
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 20px; /* Add some margin at the top */
+}
+
+.table {
+    width: 100%; /* Ensure the table takes full width */
+}
+
+.table-title {
+    margin-bottom: 20px; /* Add some spacing between title and table */
+    text-align: center; /* Center the title */
+    color: black; /* Black title color */
+}
+
+/* Form styling */
+.form-container {
+    background-color: #fff; /* White background for form */
+    border: 1px solid #6b3f91; /* Dark purple border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside container */
+    width: 400px; /* Width of form */
+}
+
+.form-container h1 {
+    color: #000; /* Black title color */
+    text-align: center; /* Center align title */
+}
+
+.form-container label {
+    color: #000; /* Black text color */
+}
+
+.form-container .alert {
+    background-color: #ff7575; /* Light red background for alerts */
+    color: #000; /* Black text color */
+}
